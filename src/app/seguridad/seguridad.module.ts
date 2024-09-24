@@ -5,6 +5,7 @@ import { RouterModule, Routes} from '@angular/router';
 import { RegisterComponent } from './register/register.component';
 import { FormfreetimerComponent } from './form-freetimer/form-freetimer.component';
 import { AccountVerificationComponent } from './account-verification/account-verification.component';
+import { ConfirmationComponent } from './confirmation/confirmation.component';
 
 const routes: Routes = [
   {
@@ -19,6 +20,9 @@ const routes: Routes = [
   },{
     path: 'account-verification', 
     component: AccountVerificationComponent
+  },{
+    path: 'confirmation', 
+    component: ConfirmationComponent
   }
 ];
 
